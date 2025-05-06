@@ -1,0 +1,23 @@
+body {
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.list {
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  border-left: 4px solid red;
+  list-style-type: none;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+div {
+  border: 1px solid red;
+}
