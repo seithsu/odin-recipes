@@ -3,20 +3,39 @@
   <head>
     <meta charset="UTF-8">
     <title>Odin Recipess</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1 class="header">Odin Recipes</h1>
-    <ul class="list">
-      <li><a href="recipes/potatokugel.html">
-          <div>
-          Potato Kugel
-          </div>
-        </a>
-      </li>
-      <li><a href="recipes/steakhouse-au-gratin-potatoes.html">Steakhouse au Gratin Potatoes</a></li>
-      <li><a href="recipes/baked-scalloped-potatoes.html">Baked Scalloped Potatoes</a></li> 
-    </ul>
+    <div class="search-container">
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </div>
+    </div>
+    <div class="recipes-wrapper">
+      <a class="recipe-link" href="recipes/potatokugel.html">
+        <div class="recipe-container">
+          <img class="recipe-preview" src="img/potatokugel/potatokugel-1.webp" alt="potatokugel-preview">
+          <h3 class="recipe-title">Potato Kugel</h3>
+          <p class="recipe-desc">Lorem Ipsum</p>
+        </div>
+      </a>
+       <a class="recipe-link" href="recipes/steakhouse-au-gratin-potatoes.html">
+        <div class="recipe-container">
+          <img class="recipe-preview" src="img/steakhousepotatoes/steakhouse-1.webp" alt="steakhouse-au-gratin-potatoes-preview">
+          <h3 class="recipe-title">Steakhouse au Gratin Potatoes</h3>
+          <p class="recipe-desc">Lorem Ipsum</p>
+        </div>
+      </a>     
+      <a class="recipe-link" href="recipes/baked-scalloped-potatoes.html">
+        <div class="recipe-container">
+          <img class="recipe-preview" src="img/scallopedpotatoes/scalloped-1.webp" alt="baked-scalloped-potatoes-preview">
+          <h3 class="recipe-title">Baked Scalloped Potatoes</h3>
+          <p class="recipe-desc">Lorem Ipsum</p>
+        </div>
+      </a>
+    </div>
   </body>
 </html>
 
